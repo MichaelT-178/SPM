@@ -257,7 +257,7 @@
 		D03E72BE2900F0E100C55B9E /* Rentals */ = {
 			isa = PBXGroup;
 			children = (
-				D0B06C6B2A5B4757004844C1 /* MainRentalView */,
+				D024734328CA97AB00A58DB3 /* MainRentalView.swift */,
 				D0B06C6C2A5B478B004844C1 /* DescriptionViews */,
 				D0B06C6D2A5B4A5E004844C1 /* CheckoutViews */,
 			);
@@ -317,14 +317,6 @@
 				D084B86F2A53709D0098FDA0 /* Design2MenuData.swift */,
 			);
 			path = OldHomeDesigns;
-			sourceTree = "<group>";
-		};
-		D0B06C6B2A5B4757004844C1 /* MainRentalView */ = {
-			isa = PBXGroup;
-			children = (
-				D024734328CA97AB00A58DB3 /* MainRentalView.swift */,
-			);
-			path = MainRentalView;
 			sourceTree = "<group>";
 		};
 		D0B06C6C2A5B478B004844C1 /* DescriptionViews */ = {

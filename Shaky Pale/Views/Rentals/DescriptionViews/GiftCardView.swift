@@ -37,10 +37,10 @@ struct GiftCardView: View {
         
         ZStack {
             
-            let helper = GiftCardHelper(btnOneSelected: btnOneSelected, btnTwoSelected: btnTwoSelected,
-                                         btnThreeSelected: btnThreeSelected, btnFourSelected: btnFourSelected,
-                                         customAmount: customAmount, recipientName: recipientName,
-                                         recipientEmail: recipientEmail)
+//            let helper = GiftCardHelper(btnOneSelected: btnOneSelected, btnTwoSelected: btnTwoSelected,
+//                                         btnThreeSelected: btnThreeSelected, btnFourSelected: btnFourSelected,
+//                                         customAmount: customAmount, recipientName: recipientName,
+//                                         recipientEmail: recipientEmail)
             
             NavigationView {
                 GeometryReader  { geo in

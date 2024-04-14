@@ -54,7 +54,7 @@ struct CustomNavBar: View {
             }).opacity(0)
             
         }.frame(width: UIScreen.main.bounds.width)
-         .padding(.top, 38)
+         .padding(.top, 47)
          .padding(.bottom, 7)
          .background(title == "Gift Card" ? darkBlue : Color.shakyPaleRed)
         
