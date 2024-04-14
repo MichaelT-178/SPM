@@ -241,16 +241,15 @@
 			isa = PBXGroup;
 			children = (
 				D024733328CA946300A58DB3 /* Shaky_PaleApp.swift */,
-				D0D5301C28D12022001D7F82 /* Tabs */,
-				D03E72BF2900F0F600C55B9E /* Home */,
-				D03E72BE2900F0E100C55B9E /* Rentals */,
-				D03E72C12900F17100C55B9E /* Check Out */,
+				D024733528CA946300A58DB3 /* ContentView.swift */,
 				D0C39ADF2A72DE8E00E4BC5A /* Components */,
+				D0BD9BF12BCB9E64004BA0E4 /* Data */,
 				D0C39AE22A72E59600E4BC5A /* Extensions */,
+				D0BD9BF22BCBA0CB004BA0E4 /* Unused */,
 				D0C39AE52A72E75100E4BC5A /* CoreData */,
-				D0C22D912A904A5900615906 /* Classes */,
 				D06C11A32929F30000FB2F7A /* Delete */,
 				D00AA09929356B2B0049F1ED /* Preview Content */,
+				D0BD9BEF2BCB9D48004BA0E4 /* Views */,
 			);
 			path = "Shaky Pale";
 			sourceTree = "<group>";
@@ -268,9 +267,7 @@
 		D03E72BF2900F0F600C55B9E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D0753ED52A28390F008CCB1D /* OldHomeDesigns */,
 				D0D5301728D0ED43001D7F82 /* HomeView.swift */,
-				D0753ED82A2840C7008CCB1D /* Design3MenuData.swift */,
 				D0D5301928D11E86001D7F82 /* MenuViews */,
 			);
 			path = Home;
@@ -326,7 +323,6 @@
 			isa = PBXGroup;
 			children = (
 				D024734328CA97AB00A58DB3 /* MainRentalView.swift */,
-				D0155980290231C8007666BA /* MainRentalData.swift */,
 			);
 			path = MainRentalView;
 			sourceTree = "<group>";
@@ -346,7 +342,6 @@
 			children = (
 				D0C22D8F2A904A3600615906 /* BoatCheckOutView.swift */,
 				D0BAEF1C2A92C086001595DE /* PaymentForm.swift */,
-				D032BEA72A8AD0A300AD4246 /* DELETEFakeBoatCheckOutView.swift */,
 			);
 			path = CheckoutViews;
 			sourceTree = "<group>";
@@ -377,8 +372,8 @@
 			isa = PBXGroup;
 			children = (
 				D0DC33182A970C86004D6690 /* CurrencyField.swift */,
-				D0DC33092A95B5E2004D6690 /* PhoneNumberField */,
 				D0DC33162A970C29004D6690 /* RegularField.swift */,
+				D0DC33092A95B5E2004D6690 /* PhoneNumberField */,
 			);
 			path = InputFields;
 			sourceTree = "<group>";
@@ -394,6 +389,45 @@
 				D0BAEF142A92A7CD001595DE /* TextSection.swift */,
 			);
 			path = BoatViewComponents;
+			sourceTree = "<group>";
+		};
+		D0BD9BEF2BCB9D48004BA0E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D03E72C12900F17100C55B9E /* Check Out */,
+				D03E72BF2900F0F600C55B9E /* Home */,
+				D03E72BE2900F0E100C55B9E /* Rentals */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0BD9BF02BCB9E2F004BA0E4 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2FD202A75FE2B0050875A /* FAQSection.swift */,
+				D06C11AE292A07EC00FB2F7A /* FAQExpansionHandler.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		D0BD9BF12BCB9E64004BA0E4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0155980290231C8007666BA /* MainRentalData.swift */,
+				D0753ED82A2840C7008CCB1D /* Design3MenuData.swift */,
+				D06C11AC292A042400FB2F7A /* FAQData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0BD9BF22BCBA0CB004BA0E4 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				D032BEA72A8AD0A300AD4246 /* DELETEFakeBoatCheckOutView.swift */,
+				D0C1B52E29822C11009A66B5 /* OLDFaq.swift */,
+				D0753ED52A28390F008CCB1D /* OldHomeDesigns */,
+			);
+			path = Unused;
 			sourceTree = "<group>";
 		};
 		D0C22D912A904A5900615906 /* Classes */ = {
@@ -420,15 +454,19 @@
 		D0C39ADF2A72DE8E00E4BC5A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D05F606C298645AA00F80DA9 /* CustomNavBar.swift */,
 				D06C11AA2929F58B00FB2F7A /* ButtonStyle.swift */,
+				D0BAEF1A2A92A96D001595DE /* OrderSummaryCell.swift */,
+				D0C9981C2916E6FE0092028C /* Cart.swift */,
+				D0C1B52C29809824009A66B5 /* BoilerPlate.swift */,
+				D0BD9BF02BCB9E2F004BA0E4 /* FAQ */,
 				D0BAEF132A92A79B001595DE /* BoatViewComponents */,
 				D0BAEF0A2A929D0E001595DE /* RentalCheckOut */,
-				D05F606C298645AA00F80DA9 /* CustomNavBar.swift */,
 				D0C22D9A2A9062A800615906 /* Calendar */,
 				D0BAEF112A92A673001595DE /* GiftCardComponents */,
 				D0BAEF122A92A688001595DE /* InputFields */,
-				D0BAEF1A2A92A96D001595DE /* OrderSummaryCell.swift */,
 				D01F5CD62A9953AB0019CFC9 /* PopUpFields */,
+				D0C22D912A904A5900615906 /* Classes */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -461,25 +499,11 @@
 				D0AEC599295B5F7900D96E3D /* Reviews.swift */,
 				D0AEC597295B5F1200D96E3D /* OurPrices.swift */,
 				D02DA9E4291F7D7800D6CCF2 /* FAQ.swift */,
-				D0C2FD202A75FE2B0050875A /* FAQSection.swift */,
-				D06C11AC292A042400FB2F7A /* FAQData.swift */,
-				D06C11AE292A07EC00FB2F7A /* FAQExpansionHandler.swift */,
-				D0C1B52E29822C11009A66B5 /* OLDFaq.swift */,
 				D03E72CD2902263000C55B9E /* AboutUs.swift */,
 				D0D5301A28D11EBB001D7F82 /* ContactUs.swift */,
 				D04EF832292D43F6000CBD7D /* UnusedFAQ.swift */,
 			);
 			path = MenuViews;
-			sourceTree = "<group>";
-		};
-		D0D5301C28D12022001D7F82 /* Tabs */ = {
-			isa = PBXGroup;
-			children = (
-				D024733528CA946300A58DB3 /* ContentView.swift */,
-				D0C9981C2916E6FE0092028C /* Cart.swift */,
-				D0C1B52C29809824009A66B5 /* BoilerPlate.swift */,
-			);
-			path = Tabs;
 			sourceTree = "<group>";
 		};
 		D0DC33092A95B5E2004D6690 /* PhoneNumberField */ = {
@@ -520,7 +544,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					D024732F28CA946300A58DB3 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -691,6 +715,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -751,6 +776,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
