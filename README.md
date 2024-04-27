@@ -1,2 +1,2 @@
 # SPM 
-This is an IOS app I made for SPM. IN PROGRESS.
+This is an IOS app I'm making for SPM. IN PROGRESS.
